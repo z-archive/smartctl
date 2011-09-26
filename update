@@ -3,6 +3,7 @@ cd /root/ssd
 /usr/bin/bzr whoami "Oleg Tsarev <zabivator@gmail.com>"
 /usr/bin/bzr launchpad-login tsarev
 /usr/sbin/smartctl --all /dev/sda > smartctl
+/usr/bin/bzr diff -r 4 smartctl > diff
 DATE=`date`
 /usr/bin/bzr commit -m "${DATE}"
 /usr/bin/bzr push
