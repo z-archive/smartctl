@@ -1,16 +1,16 @@
 === modified file 'smartctl'
 --- smartctl	2011-09-13 19:00:02 +0000
-+++ smartctl	2011-11-08 10:00:02 +0000
++++ smartctl	2011-11-08 12:00:02 +0000
 @@ -10,7 +10,7 @@
  Device is:        In smartctl database [for details use: -P show]
  ATA Version is:   7
  ATA Standard is:  ATA/ATAPI-7 T13 1532D revision 1
 -Local Time is:    Tue Sep 13 22:00:02 2011 EEST
-+Local Time is:    Tue Nov  8 13:00:02 2011 FET
++Local Time is:    Tue Nov  8 15:00:02 2011 FET
  SMART support is: Available - device has SMART capability.
  SMART support is: Enabled
  
-@@ -53,15 +53,15 @@
+@@ -53,16 +53,16 @@
    3 Spin_Up_Time            0x0020   100   100   000    Old_age   Offline      -       0
    4 Start_Stop_Count        0x0030   100   100   000    Old_age   Offline      -       0
    5 Reallocated_Sector_Ct   0x0032   100   100   000    Old_age   Always       -       2
@@ -19,18 +19,20 @@
 -192 Unsafe_Shutdown_Count   0x0032   100   100   000    Old_age   Always       -       42
 -225 Host_Writes_32MiB       0x0030   100   100   000    Old_age   Offline      -       148130
 -226 Workld_Media_Wear_Indic 0x0032   100   100   000    Old_age   Always       -       9495
-+  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       5382
-+ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       840
-+192 Unsafe_Shutdown_Count   0x0032   100   100   000    Old_age   Always       -       54
-+225 Host_Writes_32MiB       0x0030   100   100   000    Old_age   Offline      -       167253
++  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       5383
++ 12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       841
++192 Unsafe_Shutdown_Count   0x0032   100   100   000    Old_age   Always       -       55
++225 Host_Writes_32MiB       0x0030   100   100   000    Old_age   Offline      -       167297
 +226 Workld_Media_Wear_Indic 0x0032   100   100   000    Old_age   Always       -       9652
  227 Workld_Host_Reads_Perc  0x0032   100   100   000    Old_age   Always       -       1
 -228 Workload_Minutes        0x0032   100   100   000    Old_age   Always       -       3426206012
-+228 Workload_Minutes        0x0032   100   100   000    Old_age   Always       -       3391929276
++228 Workload_Minutes        0x0032   100   100   000    Old_age   Always       -       3391929291
  232 Available_Reservd_Space 0x0033   100   100   010    Pre-fail  Always       -       0
 -233 Media_Wearout_Indicator 0x0032   100   100   000    Old_age   Always       -       0
+-184 End-to-End_Error        0x0033   100   100   090    Pre-fail  Always       -       0
 +233 Media_Wearout_Indicator 0x0032   099   099   000    Old_age   Always       -       0
- 184 End-to-End_Error        0x0033   100   100   090    Pre-fail  Always       -       0
++184 End-to-End_Error        0x0033   100   100   097    Pre-fail  Always       -       0
  
  SMART Error Log Version: 1
+ No Errors Logged
 
