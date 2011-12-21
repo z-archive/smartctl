@@ -1,12 +1,12 @@
 === modified file 'smartctl'
 --- smartctl	2011-09-13 19:00:02 +0000
-+++ smartctl	2011-12-21 09:06:58 +0000
++++ smartctl	2011-12-21 09:09:17 +0000
 @@ -10,7 +10,7 @@
  Device is:        In smartctl database [for details use: -P show]
  ATA Version is:   7
  ATA Standard is:  ATA/ATAPI-7 T13 1532D revision 1
 -Local Time is:    Tue Sep 13 22:00:02 2011 EEST
-+Local Time is:    Wed Dec 21 18:06:58 2011 IRKT
++Local Time is:    Wed Dec 21 18:09:17 2011 IRKT
  SMART support is: Available - device has SMART capability.
  SMART support is: Enabled
  
