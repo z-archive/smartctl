@@ -1,9 +1,9 @@
 #!/bin/sh
-cd /root/ssd
-/usr/bin/bzr whoami "Oleg Tsarev <zabivator@gmail.com>"
-/usr/bin/bzr launchpad-login tsarev
+cd /root/smartctl
 /usr/sbin/smartctl --all /dev/sda > smartctl
-/usr/bin/bzr diff -r 4 smartctl > diff
-DATE=`date`
-/usr/bin/bzr commit -m "${DATE}"
-/usr/bin/bzr push lp:~tsarev/+junk/ssd3
+/usr/bin/git diff smartctl > diff
+DATE=`/usr/bin/date`
+/usr/bin/git commit -a -m "$(/usr/bin/date)"
+/usr/bin/git commit -m "${DATE}"
+/usr/bin/git push origin master
+
