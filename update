@@ -2,8 +2,5 @@
 cd /root/smartctl
 /usr/sbin/smartctl --all /dev/sda > smartctl
 /usr/bin/git diff smartctl > diff
-DATE=`/usr/bin/date`
 /usr/bin/git commit -a -m "$(/usr/bin/date)"
-/usr/bin/git commit -m "${DATE}"
 /usr/bin/git push origin master
-
