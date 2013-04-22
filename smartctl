@@ -1,3 +1,4 @@
+Mon Apr 22 09:11:32 IRKT 2013
 smartctl 6.1 2013-03-16 r3800 [x86_64-linux-3.8.7-1-ARCH] (local build)
 Copyright (C) 2002-13, Bruce Allen, Christian Franke, www.smartmontools.org
 
@@ -13,7 +14,7 @@ Rotation Rate:    Solid State Device
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA/ATAPI-7 T13/1532D revision 1
 SATA Version is:  SATA 2.6, 3.0 Gb/s
-Local Time is:    Mon Apr 22 09:10:58 2013 IRKT
+Local Time is:    Mon Apr 22 09:11:32 2013 IRKT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
