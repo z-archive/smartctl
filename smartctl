@@ -1,4 +1,4 @@
-Thu May  9 19:00:01 IRKT 2013
+Thu May  9 20:00:01 IRKT 2013
 smartctl 6.1 2013-03-16 r3800 [x86_64-linux-3.8.11-1-ARCH] (local build)
 Copyright (C) 2002-13, Bruce Allen, Christian Franke, www.smartmontools.org
 
@@ -14,7 +14,7 @@ Rotation Rate:    Solid State Device
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ATA/ATAPI-7 T13/1532D revision 1
 SATA Version is:  SATA 2.6, 3.0 Gb/s
-Local Time is:    Thu May  9 19:00:01 2013 IRKT
+Local Time is:    Thu May  9 20:00:01 2013 IRKT
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -57,13 +57,13 @@ ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_
   3 Spin_Up_Time            0x0020   100   100   000    Old_age   Offline      -       0
   4 Start_Stop_Count        0x0030   100   100   000    Old_age   Offline      -       0
   5 Reallocated_Sector_Ct   0x0032   100   100   000    Old_age   Always       -       4
-  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       15481
+  9 Power_On_Hours          0x0032   100   100   000    Old_age   Always       -       15482
  12 Power_Cycle_Count       0x0032   100   100   000    Old_age   Always       -       1806
 192 Unsafe_Shutdown_Count   0x0032   100   100   000    Old_age   Always       -       125
-225 Host_Writes_32MiB       0x0030   100   100   000    Old_age   Offline      -       600312
+225 Host_Writes_32MiB       0x0030   100   100   000    Old_age   Offline      -       600327
 226 Workld_Media_Wear_Indic 0x0032   100   100   000    Old_age   Always       -       2519
 227 Workld_Host_Reads_Perc  0x0032   100   100   000    Old_age   Always       -       2
-228 Workload_Minutes        0x0032   100   100   000    Old_age   Always       -       3409050303
+228 Workload_Minutes        0x0032   100   100   000    Old_age   Always       -       3409050363
 232 Available_Reservd_Space 0x0033   100   100   010    Pre-fail  Always       -       0
 233 Media_Wearout_Indicator 0x0032   096   096   000    Old_age   Always       -       0
 184 End-to-End_Error        0x0033   100   100   090    Pre-fail  Always       -       0
